@@ -35,28 +35,5 @@ O painel irá mostrar os gêmeos conforme as mensagens MQTT chegarem.
 - `DESATIVAR_BALANCEAMENTO <device>` — desativa balanceamento.
 - `STRESS <device|ALL> <duration_seconds> <intensity>` — aplica stress (aumenta tráfego) por `duration_seconds` segundos com fator `intensity`.
 
-## Publicação no GitHub
 
-1. Inicialize o repositório e faça commit:
 
-```bash
-git init
-git add .
-git commit -m "Initial commit: simulador e dashboard de gêmeos digitais"
-```
-
-2. Crie um repositório no GitHub (via web) e adicione o remote, ou use a CLI `gh`:
-
-```bash
-# Usando gh (opcional):
-gh repo create <owner>/<repo-name> --public --source=. --push
-
-# Ou manualmente (após criar repo na web):
-git remote add origin https://github.com/<owner>/<repo>.git
-git push -u origin main
-```
-
-Substitua `<owner>`/`<repo>` conforme seu usuário e nome de repositório.
-
----
-Arquivo gerado automaticamente pelo assistente.
